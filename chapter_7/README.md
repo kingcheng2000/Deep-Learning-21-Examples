@@ -8,6 +8,11 @@
 夹， 然后把wave.ckpt-done复制到这个文件夹下，运行命令：
 ```
 python eval.py --model_file models/wave.ckpt-done --image_file img/test.jpg
+
+python eval.py --model_file models/cubist.ckpt-done --image_file img/test.jpg
+python eval.py --model_file models/denoised_starry.ckpt-done --image_file img/test.jpg
+python eval.py --model_file models/feathers.ckpt-done --image_file img/test.jpg
+...
 ```
 
 成功风格化的图像会被写到generated/res.jpg。
